@@ -17,6 +17,7 @@ public class User {
     private String name;
     @NonNull
     private String grade;
+    private int salary;
     @OneToOne
     private User supervisor;
     @OneToMany(cascade = CascadeType.ALL)
